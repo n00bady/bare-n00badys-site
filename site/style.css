@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(./img/1519537110767-b.gif) no-repeat center bottom fixed;
+    background-size: cover;
+    color: #ffffff;
+    padding: 5px;
+    font-family: 'bitwise';
+}
+footer {
+    max-width: 800px;
+    margin: auto;
+    padding: 3px;
+    font-size: 14px;
+    color: #77DEDE;
+}
+a {
+    color: #77DEDE;
+}
+a:visited {
+    color: #ED1E79;
+}
+.content {
+    background-color: rgba(8,8,8,0.70);
+    max-width: 800px;
+    min-height: 720px;
+    border: dashed #ED1E79;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content .header {
+    font-size: 24px;
+    border-bottom: dashed #ED1E79;
+    color: #77dede;
+    text-align: center;
+}
+.content .container {
+    color: yellow;
+    padding: 15px;
+    text-align: left;
+
+}
+.content .container p {
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    max-width: 80ch;
+}
+.content .container ul {
+    padding-left: 21px;
+}
+.content .love {
+    background-image: url(./img/letsalllovelain.gif);
+    background-repeat: repeat;
+    height: 24px;
+    padding-bottom: 4px;
+}
+.nav {
+    max-width: inherit;
+    max-height: 55px;
+    padding-top: 3px;
+    border-bottom: solid #ED1E79;
+    margin-bottom: 0px;
+}
+.nav ul {
+    padding: 3px;
+    list-style: none;
+    text-align: center;;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #77DEDE;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*border: thin solid;
+    border-color: rgba(8,8,8,0);*/
+}
+.nav ul li a:hover {
+    color: #ED1E79;
+    /*border: thin solid;
+    border-color: #ED1E79;*/
+    transition: all 0.5s ease-in-out;
+}
+#foot td {
+    width: 100%;
+}
+#uncon {
+    text-align: center;
+}
+#postdate {
+    color: #77DEDE;
+    font-size: 10px;
+    text-align: left;
+}
+#blogindex {
+    margin-top: 15px;
+    text-align: center;
+    list-style-type: "⧐";
+    padding: 10px;
+}
+@font-face {
+    font-family: 'bitwise';
+    src: url(./fonts/bitwise.ttf);
+}
